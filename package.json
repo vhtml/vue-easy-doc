@@ -1,0 +1,64 @@
+{
+  "name": "easy-doc",
+  "version": "1.0.0",
+  "description": "easy vue document component",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --inline --config build/webpack.config.dev.js --content-base ./",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules --color --config build/webpack.build.js && cross-env NODE_ENV=production webpack -p --progress --hide-modules --color --config build/webpack.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vhtml/easy-doc.git"
+  },
+  "keywords": [
+    "vue",
+    "document",
+    "component"
+  ],
+  "author": "vhtml",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vhtml/easy-doc/issues"
+  },
+  "homepage": "https://github.com/vhtml/easy-doc#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.2.5",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-helper-vue-jsx-merge-props": "^2.0.3",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-plugin-transform-vue-jsx": "^3.5.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.3",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "eslint-plugin-vue": "^4.2.0",
+    "fast-vue-md-loader": "^1.0.3",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.30.1",
+    "postcss": "^6.0.16",
+    "postcss-calc": "^6.0.1",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-loader": "^2.0.10",
+    "precss": "^2.0.0",
+    "progress-bar-webpack-plugin": "^1.10.0",
+    "style-loader": "^0.19.1",
+    "vue": "^2.5.13",
+    "vue-loader": "^13.7.0",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.13",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.11.0"
+  },
+  "dependencies": {}
+}

@@ -1,0 +1,21 @@
+$easy-doc-blue: #3498db;
+$easy-doc-text-color: #333;
+$easy-doc-text-light-blue: rgba(69, 90, 100, .6);
+$easy-doc-grey: #999;
+$easy-doc-dark-grey: #666;
+$easy-doc-light-grey: #ccc;
+$easy-doc-border-color: #eaeefb;;
+$easy-doc-code-color: #455a64;
+$easy-doc-padding: 40px;
+$easy-doc-row-max-width: 1440px;
+
+/* header */
+$easy-doc-header-top-height: 60px;
+$easy-doc-header-bottom-height: 50px;
+
+/* simulator */
+$easy-doc-simulator-width: 375px;
+$easy-doc-simulator-small-width: 320px;
+$easy-doc-simulator-height: 620px;
+$easy-doc-simulator-small-height: 560px;
+
