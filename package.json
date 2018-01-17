@@ -1,5 +1,5 @@
 {
-  "name": "easy-doc",
+  "name": "vue-easy-doc",
   "version": "1.0.0",
   "description": "easy vue document component",
   "main": "dist/index.js",
