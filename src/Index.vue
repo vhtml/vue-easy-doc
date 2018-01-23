@@ -19,7 +19,6 @@
 </template>
 
 <script>
-import TouchEmulator from 'hammer-touchemulator'
 import EasyDocHeader from './components/EasyDocHeader'
 import EasyDocNav from './components/EasyDocNav'
 import EasyDocNavLink from './components/EasyDocNavLink'
@@ -27,9 +26,6 @@ import EasyDocContainer from './components/EasyDocContainer'
 import EasyDocContent from './components/EasyDocContent'
 import EasyDocNavigation from './components/EasyDocNavigation'
 import EasyDocSimulator from './components/EasyDocSimulator'
-
-// 启动touch模拟
-TouchEmulator()
 
 export default {
   name: 'easy-doc',
