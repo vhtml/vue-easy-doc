@@ -71,17 +71,17 @@ export default {
 @import '../style/variable';
 
 .easy-doc-nav {
+  position: fixed;
   left: 0;
   top: 60px;
   bottom: 0;
   z-index: 1;
   min-width: 250px;
   max-width: 250px;
-  position: fixed;
   overflow-y: scroll;
   padding: 25px 0 75px;
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1400px) {
     min-width: 220px;
     max-width: 220px;
   }
@@ -150,10 +150,10 @@ export default {
     font-size: 12px;
     line-height: 40px;
     padding-left: $easy-doc-padding;
-    color: $easy-doc-text-light-blue;
+    color: $easy-doc-text-light-color;
   }
 
-  @media (max-width: 1300px) {
+  @media (max-width: 1400px) {
     min-width: 220px;
     max-width: 220px;
 

@@ -1,10 +1,10 @@
 $easy-doc-blue: #3498db;
 $easy-doc-text-color: #333;
-$easy-doc-text-light-blue: rgba(69, 90, 100, .6);
+$easy-doc-text-light-color: rgba(69, 90, 100, .6);
 $easy-doc-grey: #999;
 $easy-doc-dark-grey: #666;
 $easy-doc-light-grey: #ccc;
-$easy-doc-border-color: #eaeefb;;
+$easy-doc-border-color: #e9e9e9;;
 $easy-doc-code-color: #455a64;
 $easy-doc-padding: 40px;
 $easy-doc-row-max-width: 1440px;

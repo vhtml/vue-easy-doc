@@ -11,13 +11,13 @@ code {
   position: relative;
   word-break: break-all;
   white-space: pre-wrap;
-  background-color: #f5f7fa;
+  background-color: #f9f9f9;
   color: $easy-doc-code-color;
   padding: 18px 10px 18px 20px;
   font-family: "Source Code Pro", "Monaco", "Inconsolata", monospace;
 
   &::after {
-    top: 5px;
+    top: 2px;
     right: 10px;
     position: absolute;
     color: #ccc;

@@ -2566,6 +2566,10 @@ graceful-fs@^4.1.2, graceful-fs@^4.1.4:
   version "4.1.11"
   resolved "http://registry.npm.shuidihuzhu.com/graceful-fs/download/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
+hammer-touchemulator@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/hammer-touchemulator/-/hammer-touchemulator-0.0.2.tgz#8bea4616729d53bf75f16c58f599c184e54a590e"
+
 handle-thing@^1.2.5:
   version "1.2.5"
   resolved "http://registry.npm.shuidihuzhu.com/handle-thing/download/handle-thing-1.2.5.tgz#fd7aad726bf1a5fd16dfc29b2f7a6601d27139c4"
@@ -4908,8 +4912,8 @@ require-directory@^2.1.1:
   resolved "http://registry.npm.shuidihuzhu.com/require-directory/download/require-directory-2.1.1.tgz#8c64ad5fd30dab1c976e2344ffe7f792a6a6df42"
 
 require-from-string@^1.1.0:
-  version "2.0.1"
-  resolved "http://registry.npm.shuidihuzhu.com/require-from-string/download/require-from-string-2.0.1.tgz#c545233e9d7da6616e9d59adfb39fc9f588676ff"
+  version "1.2.1"
+  resolved "http://registry.npm.shuidihuzhu.com/require-from-string/download/require-from-string-1.2.1.tgz#529c9ccef27380adfec9a2f965b649bbee636418"
 
 require-main-filename@^1.0.1:
   version "1.0.1"

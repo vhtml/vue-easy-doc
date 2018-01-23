@@ -24,7 +24,7 @@ export default {
   &--with-simulator {
     padding-right: calc($easy-doc-simulator-width + $easy-doc-padding);
 
-    @media (max-width: 1300px) {
+    @media (max-width: 1400px) {
       padding-right: calc($easy-doc-simulator-small-width + $easy-doc-padding);
     }
   }
