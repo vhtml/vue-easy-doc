@@ -110,6 +110,7 @@ export default {
   width: $easy-doc-simulator-width;
   min-width: $easy-doc-simulator-width;
   top: calc($easy-doc-padding + $easy-doc-header-top-height);
+  box-shadow: 0 0 1px #ddd;
 
   @media (max-width: 1400px) {
     width: $easy-doc-simulator-small-width;
@@ -138,7 +139,7 @@ export default {
 
   &__nav {
     background-color: #1b1b1f;
-    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
 
     &::before {
       content: '';
