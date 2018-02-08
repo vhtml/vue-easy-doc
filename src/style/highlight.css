@@ -39,7 +39,8 @@ code.language-html {
   }
 }
 
-code.language-javascript {
+code.language-javascript,
+code.language-js {
   &::after {
     content: 'JS';
   }
